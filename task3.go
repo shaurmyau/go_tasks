@@ -39,6 +39,6 @@ func main() {
 	for _, phrase := range testPhrases {
 		encrypted := encryptPhrase(phrase)
 		fmt.Printf("Исходная: %s\n", phrase)
-		fmt.Printf("Зашифрованная:     %s\n\n", encrypted)
+		fmt.Printf("Зашифрованная: %s\n\n", encrypted)
 	}
 }
